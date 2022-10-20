@@ -1,0 +1,53 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    background-image: url(img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-size: cover;
+}
+.menu{
+    float:right;
+    background-color: #EEB430;
+    overflow: hidden;
+}
+
+.menu a {
+    float: right;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+section {background-color: #EEB430;
+font-size: 60px;
+line-height: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: -10px;
+color: white;
+}
+
+h1 {font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 100px;
+}
+h2 {font-family: 'Quicksand', sans-serif;
+    margin-left: 100px;}
+
+button {position: absolute;
+    right: 25%;
+    bottom: 50%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EEB41F;
+    color: white;
+    border: white;
+}
